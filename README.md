@@ -5,7 +5,7 @@ A Python project for real-time face detection using OpenCV and Haar Cascades.
 ## Features
 
 - **Real-time face detection** from webcam feed
-- **Haar Cascade classifier** for accurate face detection  
+- **Haar Cascade classifier** for accurate face detection
 - **turquoise bounding boxes** around detected faces
 - **Easy to extend** for additional features
 - **Clean, simple code** structure
@@ -13,18 +13,21 @@ A Python project for real-time face detection using OpenCV and Haar Cascades.
 ## Setup
 
 ### Prerequisites
+
 - Python 3.12+
 - Webcam (for real-time detection)
 
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/Young-Xster/face-detection.git
 cd face-detection
 ```
 
 2. Create and activate virtual environment:
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate  # Linux/Mac
@@ -33,6 +36,7 @@ source .venv/bin/activate  # Linux/Mac
 ```
 
 3. Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -42,10 +46,12 @@ pip install -r requirements.txt
 ### Running the Face Detection
 
 **Option 1: Using VS Code**
+
 - Set Python interpreter to `.venv` environment
 - Click the ▶️ Run button
 
 **Option 2: Using Terminal**
+
 ```bash
 # Activate virtual environment first
 source .venv/bin/activate
@@ -53,16 +59,19 @@ python face_detection.py
 ```
 
 **Option 3: Direct execution**
+
 ```bash
 .venv/bin/python face_detection.py
 ```
 
 ### Controls
+
 - **Press 'q'** to quit the application
-- **ESC key** also works to exit
 
 ### Using Video File Instead of Webcam
+
 Uncomment line 11 in `face_detection.py` and replace `"video.mp4"` with your video file path:
+
 ```python
 # camera = cv2.VideoCapture(0)  # Comment this line
 video = cv2.VideoCapture("your_video.mp4")  # Uncomment and modify this line
