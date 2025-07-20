@@ -6,7 +6,7 @@ A Python project for real-time face detection using OpenCV and Haar Cascades.
 
 - **Real-time face detection** from webcam feed
 - **Haar Cascade classifier** for accurate face detection  
-- **Yellow bounding boxes** around detected faces
+- **turquoise bounding boxes** around detected faces
 - **Easy to extend** for additional features
 - **Clean, simple code** structure
 
